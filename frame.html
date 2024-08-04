@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica:wght@300;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="frame-root">
+      <div class="c776fc9bd82a7a7caed8ce8c1f2e16-parent">
+        <div class="c776fc9bd82a7a7caed8ce8c1f2e16"></div>
+        <b class="contact1">CONTACT</b>
+        <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+        <img class="frame-item" alt="" src="./public/arrow-4.svg" />
+
+        <b class="home1" id="hOMEText">HOME</b>
+        <b class="artists1" id="aRTISTSText">ARTISTS</b>
+        <b class="music2" id="mUSICText">MUSIC</b>
+        <img
+          class="frame-inner"
+          alt=""
+          src="./public/arrow-1.svg"
+          id="arrow1"
+        />
+
+        <img class="arrow-icon" alt="" src="./public/arrow-1.svg" id="arrow2" />
+
+        <img
+          class="frame-child1"
+          alt=""
+          src="./public/arrow-1.svg"
+          id="arrow3"
+        />
+
+        <div class="intergalactic-terminalunivers">
+          INTERGALACTIC-TERMINAL@UNIVERS.SPACE
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./root.html";
+        });
+      }
+
+      var aRTISTSText = document.getElementById("aRTISTSText");
+      if (aRTISTSText) {
+        aRTISTSText.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+
+      var mUSICText = document.getElementById("mUSICText");
+      if (mUSICText) {
+        mUSICText.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+
+      var arrow1 = document.getElementById("arrow1");
+      if (arrow1) {
+        arrow1.addEventListener("click", function (e) {
+          window.location.href = "./root.html";
+        });
+      }
+
+      var arrow2 = document.getElementById("arrow2");
+      if (arrow2) {
+        arrow2.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+
+      var arrow3 = document.getElementById("arrow3");
+      if (arrow3) {
+        arrow3.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+    </script>
+  </body>
+</html>
